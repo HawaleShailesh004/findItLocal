@@ -1,0 +1,55 @@
+/* CustomPopup.module.css */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Light white background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Make sure it appears above other elements */
+  }
+  
+  .popup {
+    background-color: white; /* White background for the popup */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px; /* Adjust as needed */
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  .callButton {
+    background-color: black; /* Black button */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .copyButton {
+    background-color: gray; /* Gray button */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .closeButton {
+    background-color: transparent; /* Transparent close button */
+    color: black;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  

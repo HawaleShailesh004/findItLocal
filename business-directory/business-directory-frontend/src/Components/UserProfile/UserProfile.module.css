@@ -1,0 +1,256 @@
+.profileContainer {
+    max-width: 70%;
+    margin: 0rem auto;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    /* White background */
+    border-radius: 10px;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.profileRow {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    gap: 1rem;
+    /* Add space between the columns */
+}
+
+.profileHeader {
+    width: 50%;
+    text-align: center;
+    /* Center-align text in profile header */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: #f9f9f9;
+    /* Card background */
+    border-radius: 8px;
+    /* Rounded corners for the cards */
+    padding: 1.5rem;
+    margin: 1rem 0;
+    /* Space between cards */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.icon {
+    margin-right: 0.5rem;
+    color: #007bff;
+    /* Icon color */
+    font-size: 1.5rem;
+    /* Size of the icon */
+}
+
+.card h4 {
+    margin: 0;
+    color: black;
+}
+
+.profileInfo {
+    width: 50%;
+    /* Take up more space */
+    text-align: left;
+    /* Align text to the left for the profile info */
+
+}
+
+.profileImage {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    /* Black border */
+    object-fit: cover;
+}
+
+.profilePlaceholder {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000000;
+    color: black;
+    margin-bottom: 0rem;
+}
+
+h2 {
+    margin: 2rem 0 0rem 0;
+    color: black;
+}
+
+.userEmail {
+    color: #555555;
+    margin-bottom: 3rem;
+}
+
+.verifiedStatus {
+    color: green;
+    font-weight: bold;
+}
+
+.profileInfo h3 {
+    margin-bottom: 1rem;
+    color: black;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+}
+
+.profileInfo p {
+    margin: 0.5rem 0;
+    color: #555555;
+}
+
+.buttonGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent overlay */
+    color: white;
+    /* White text */
+    text-align: center;
+}
+
+.welcomeText {
+    font-size: 3rem;
+    color: white;
+    /* Larger text size for the greeting */
+}
+
+.heroProfileImage {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    /* Height for the hero image */
+    overflow: hidden;
+    /* Prevent overflow of the image */
+    border-radius: 10px;
+    /* Rounded corners */
+    margin-bottom: 1.5rem;
+}
+
+.heroImage {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    /* Height for the hero image */
+    overflow: hidden;
+    /* Prevent overflow of the image */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+
+
+.updateButton,
+.passwordButton{
+   background-color: #333;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.updateButton:hover,
+.passwordButton:hover{
+    background-color: black;
+}
+.updateButton,
+.passwordButton,
+.businessButton {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.businessButton {
+    background-color: #000000;
+  
+}
+
+.businessButton:hover {
+    background-color: #666666;
+}
+
+.welcomeContainer {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    min-height: 400px;
+}
+
+.welcomeContainer h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.welcomeContainer p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.loginButton,
+.signupButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.loginButton:hover {
+    background-color: #585858;
+}
+
+.signupButton {
+    background-color: #000000;
+}
+
+.signupButton:hover {
+    background-color: #585858;
+}

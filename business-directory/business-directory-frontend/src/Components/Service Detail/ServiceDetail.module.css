@@ -1,0 +1,180 @@
+.serviceDetailPage {
+    background-color: white; /* Light gray background */
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .serviceContainer {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .serviceContainer:hover {
+    transform: translateY(-5px);
+  }
+  
+  .serviceName {
+    color: #333; /* Dark text */
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .serviceImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .serviceDetails {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #d3d3d3; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #333; /* Darker text color */
+  }
+  
+  .serviceInfo {
+    display: grid;
+    width: 60%;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 equal columns */
+    gap: 1rem; /* Space between cards */
+    margin: 1.5rem 0; /* Reset margin if necessary */
+  }
+  
+  
+  .infoCard {
+    margin:  0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    font-size: 1.3rem;
+    background-color: #fff;
+    /*Whitebackgroundforcards*/border-radius: 8px;
+    /*Roundedcornersforcards*/padding: 15px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+    /*Slightshadow*/flex: 1;
+    /*Allowcardstogrowequally*/min-width: 120px;
+ 
+}
+  
+  .icon {
+    margin-right: 10px; /* Space between icon and text */
+    color: #00548c; /* Icon color */
+    font-size: 20px; /* Icon size */
+  }
+  
+  
+  .description {
+    font-size: 1.6rem;
+    color: #000000; /* Medium gray */
+    margin-bottom:1rem;
+  }
+  
+ 
+  
+  .infoItem {
+    background-color: #f0f0f0; /* Light background for header */
+
+    margin: 5px 0;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .availableDays {
+    margin-top: 20px;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .availableDays h3 {
+    color: #000000;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    
+  }
+  
+  .availabilityTable {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    
+}
+  
+  .availabilityTable th,
+  .availabilityTable td {
+    border: 1px solid #ccc; /* Light border for the table */
+    border-radius: 5px; /* Curved borders */
+    padding: 1rem;
+    text-align: center;
+  
+  }
+  
+  .availabilityTable th {
+    background-color: #f0f0f0; /* Light background for header */
+
+  }
+  
+  .availableIcon {
+    color: green; /* Green for available */
+    font-size: 1.5rem;
+  }
+  
+  .unavailableIcon {
+    color: red; /* Red for unavailable */
+    font-size: 1.5rem;
+  }
+  
+  .actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .bookButton,
+  .contactButton {
+    background-color: #000; /* Dark button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-right: 10px;
+    transition: background 0.3s;
+  }
+  
+  .bookButton:hover,
+  .contactButton:hover {
+    background-color: #585858; /* Lighter on hover */
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 1.5em;
+    color: #666; /* Gray text */
+  }
+  

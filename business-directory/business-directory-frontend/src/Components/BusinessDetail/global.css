@@ -1,0 +1,83 @@
+/* Make sure your global.css or equivalent file has more specific selectors */
+
+.swal2-popup .swal-popup {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .swal2-popup .swal2-title .swal-title {
+    color: #000000 !important;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  #swal2-title{
+    color: #000000 !important;
+  }
+  .swal2-icon .swal-icon {
+    color: #000000 !important; /* Ensure the icon color is applied */
+    font-size: 1rem !important; /* Ensure the font size is applied */
+    text-align: center;
+  }
+  
+  .swal2-icon .swal2-icon-content {
+    font-size: 4rem !important;
+    color: #000000 !important; /* Apply the correct size to SweetAlert's icon */
+  }
+  
+  .swal2-confirm.swal-button-confirm {
+    background-color: #0876ca !important;
+    /*Use!importanttoensurethestylesapply*/color: #fff !important;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    -webkit-transition: background-color 0.3s, color 0.3s;
+    -moz-transition: background-color 0.3s, color 0.3s;
+    -ms-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
+}
+  
+  .swal2-confirm.swal-button-confirm:hover {
+    background-color: #6ab0e6 !important;
+  }
+  
+  .swal2-deny.swal-button-deny {
+    background-color: #000000 !important;
+    color: #fff !important;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .swal2-deny.swal-button-deny:hover {
+    background-color: #585858 !important;
+  }
+  
+  .swal2-cancel.swal-button-cancel {
+    background-color: #ff0000 !important;
+    color: white !important;
+  
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    visibility: visible;
+  }
+  
+  .swal2-cancel.swal-button-cancel:hover {
+    background-color: #fd4444 !important;
+  }
+  
+  /* Success icon override */
+  .swal2-success {
+    color: #28a745;
+  }
+  

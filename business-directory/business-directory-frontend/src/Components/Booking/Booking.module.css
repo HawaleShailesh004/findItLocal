@@ -1,0 +1,162 @@
+.bookingPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .serviceCard {
+    background: linear-gradient(135deg, #f9f9f9, #e9e9e9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    max-width: 400px;
+    transition: transform 0.3s;
+  }
+  
+  .serviceCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .serviceTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .detailsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  
+  .detailItem {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.9); /* Slight white background for detail items */
+    transition: background 0.3s;
+  }
+  
+  .detailItem:hover {
+    background: rgba(255, 255, 255, 0.7); /* Slightly fade background on hover */
+  }
+  
+  .iconincard {
+    margin-right: 10px;
+    color: #007bff; /* Bootstrap primary color for icons */
+  }
+  
+  .label {
+    font-weight: 600;
+    color: #555;
+    margin-right: 5px;
+  }
+  
+  .value {
+    font-weight: 400;
+    color: #333;
+  }
+  
+  
+  .title {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+ 
+    width: 60%;
+  }
+  
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+
+  }
+  
+  .inputGroup label {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 0.5rem;
+  }
+  
+  .icon {
+    margin-right: 8px;
+  }
+  
+  .input, .textarea, .select {
+    border: 1px solid #ccc;
+    padding: 0.8rem;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .input:focus, .textarea:focus, .select:focus {
+    outline: none;
+    border-color: #333;
+  }
+  
+  .textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .submitButtonContainer {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .submitButton {
+    background-color: #000000;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+
+  .availabilityMessage{
+    font-size: 0.8rem;
+    color: red;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  
+  .submitButton:hover {
+    background-color: #585858;
+  }
+  
+  .priceBreakdown {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+  }
+  
+  .breakdownItem {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+  }
+  
+  .breakdownItem span {
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,333 @@
+.mainContainer {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+  }
+  
+  .dashboardContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .businessOverview {
+    width: 70%;
+    margin: 2rem auto;
+    gap: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .businessLogo{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000000;
+    color: #333;
+    margin-bottom: 0rem;
+  }
+  .businessLogo img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    border: 2px solid #000000; /* Black border */
+    object-fit: cover;
+  }
+  
+  .businessInfo {
+    flex: 1;
+  }
+  
+  .businessName {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contactInfo {
+    margin: 10px 0;
+  }
+  
+  .websiteLink {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .servicesOffered {
+    background-color: #f9f9f9; /* Card background */
+    border-radius: 8px; /* Rounded corners for the cards */
+    padding: 1rem 0;
+    margin: 2rem 0; /* Space between cards */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #333;
+
+  }
+  
+  .serviceList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .serviceItem {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+   
+    /* margin: 10px 0; */
+    border-bottom: 1px solid rgb(175, 175, 175);
+    transition: transform 0.2s;
+    width: 92%;
+    height: fit-content;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 1rem;
+    
+}
+
+.serviceItem:hover{
+  transform: translateY(-2px);
+}
+.serviceTitle{
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0 0rem 1.5rem 0;
+}
+
+.servicePrice{
+  margin-top: -0.7rem;
+}
+  
+
+  .price {
+    font-weight: bold;
+  }
+  
+  .addNewService {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 10rem;
+    border: none;
+    cursor: pointer;
+    margin-left: 22rem;
+    margin-top: -5rem;
+
+    &:hover{
+      background-color: #585858;
+    }
+  }
+
+  .noServiceTxt{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 500;
+  }
+  
+  .workingHours {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1rem 2rem 1rem;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+  }
+
+  .workingHoursHead{
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    width: 60%;
+  }
+
+  .updateWorkingHours{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    height: fit-content;
+
+    &:hover{
+      background-color: #585858;
+    }
+  }
+  
+  
+  .hoursTable {
+    width: 60%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  
+  .hoursTable th, .hoursTable td {
+    padding: 10px;
+    border: 1px solid #454545;
+  }
+  
+  .twoColumnSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding: 1rem 1rem 2rem 1rem;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    height: max-content;
+  }
+  
+  .column {
+    width: 100%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .bookingsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.8rem;
+  }
+  
+  .bookingsTable th, .bookingsTable td {
+    padding: 10px;
+    border: 1px solid #454545;
+  }
+  
+  .businessPerformance {
+    margin-left: 20px;
+  }
+  
+  .performanceStats {
+    margin-top: 10px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 1rem;
+    
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+    p{
+      margin: 0.6rem;
+    }
+}
+  
+  .analyticsButton {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 1rem;
+
+    &:hover{
+      background-color: #585858;
+    }
+  }
+  
+  .buttonIcon{
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: white;
+  }
+  .issueManagement {
+    margin-top: 30px;
+  }
+  
+  .issueList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .issueItem {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 10px;
+  }
+  
+  .issueStatus {
+    font-weight: bold;
+  }
+  
+  .resolveButton {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 2rem;
+    color: #000; /* You can change the icon color */
+  }
+
+  
+
+  .noBusinessFound {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f8f8; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    margin: 20px;
+  }
+  
+  .noBusinessIcon {
+    font-size: 5rem; /* Adjust icon size as needed */
+    color: #000000; /* Icon color */
+    margin-bottom: 20px; /* Spacing below the icon */
+  }
+  
+  h2 {
+    font-size: 2rem; /* Increased font size */
+    color: #333; /* Dark text for better readability */
+    margin-bottom: 10px; /* Space below the heading */
+  }
+  
+  p {
+    font-size: 1.2rem; /* Larger font for better readability */
+    color: #555; /* Slightly lighter text color */
+    margin-bottom: 20px; /* Space below the paragraph */
+  }
+  
+  .createBusinessButton {
+    padding: 12px 24px; /* Comfortable button padding */
+    font-size: 1.1rem; /* Slightly larger button text */
+    color: #fff; /* White text color */
+    background-color: #000000; /* Primary button color */
+    border: none;
+    border-radius: 5px; /* Rounded button edges */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background transition */
+  }
+  
+  .createBusinessButton:hover {
+    background-color: #585858; /* Darker shade on hover */
+  }
+  

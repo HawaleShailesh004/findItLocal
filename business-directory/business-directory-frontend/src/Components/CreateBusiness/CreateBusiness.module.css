@@ -1,0 +1,115 @@
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px 10rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .heading {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .inputGroup {
+    margin-bottom: 20px;
+  }
+  
+  .inputGroup label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .inputWrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .inputWrapper input,
+  .inputWrapper textarea {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+  }
+  
+  .inputWrapper .icon {
+    margin: 0 10px;
+    color: #666;
+  }
+  
+  .submitBtn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submitBtn:hover {
+    background-color: #333;
+  }
+  
+  .successMessage {
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .suggestionsList {
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  .suggestionItem {
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  
+  .suggestionItem:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .categoryList {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+  }
+  
+  .categoryItem {
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    margin-right: 5px;
+    display: inline-block;
+    border-radius: 4px;
+    color: black;
+  }
+  

@@ -86,11 +86,11 @@ const ServiceDetail = () => {
       <div className={styles.serviceDetailPage}>
         <div className={styles.serviceContainer}>
           <h1 className={styles.serviceName}>{service.service_name}</h1>
-          <img
+          {/* <img
             src={service.image || "placeholder-image-url"}
             alt={service.service_name}
             className={styles.serviceImage}
-          />
+          /> */}
           <div className={styles.serviceDetails}>
             <p className={styles.description}>{service.description}</p>
 

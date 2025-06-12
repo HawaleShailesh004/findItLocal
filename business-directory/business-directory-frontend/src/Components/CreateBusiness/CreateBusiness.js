@@ -97,6 +97,7 @@ const CreateBusiness = () => {
     if (file && file.size < 500000) {
       setFormData({ ...formData, business_logo: file });
       setErrors({ ...errors, logo: null });
+      console.log(errors)
     } else {
       setErrors({ ...errors, logo: "Logo size should be under 500KB." });
     }

@@ -4,6 +4,9 @@ import styles from "./Register.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
+import Header from "../Header"
+import Footer from "../Footer"
+
 import { useNavigate } from "react-router-dom";
 
 const Register = () => {
@@ -115,6 +118,8 @@ const Register = () => {
   };
 
   return (
+    <>
+ 
     <div className={styles["register-main-container"]}>
       <h2 className={styles["register-title"]}>Register</h2>
 
@@ -308,6 +313,8 @@ const Register = () => {
         )}
       </form>
     </div>
+       <Footer/>
+    </>
   );
 };
 

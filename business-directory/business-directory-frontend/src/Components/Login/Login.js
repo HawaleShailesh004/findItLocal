@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import styles from './Login.module.css'; // Create a simple B&W theme
 import { useUser } from '../../Context/UserContext';
 
+import Footer from "../Footer"
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -34,6 +35,7 @@ const Login = () => {
   };
 
   return (
+    <>
     <div className={styles['login-container']}>
     <form onSubmit={handleSubmit} className={styles['login-form']}>
       <h2>Login</h2>
@@ -64,6 +66,8 @@ const Login = () => {
       </button>
     </form>
   </div>
+  <Footer/>
+  </>
   );
 };
 

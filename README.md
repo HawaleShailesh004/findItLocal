@@ -1,7 +1,22 @@
 # 📍 FindItLocal – Local Business Directory (MERN Stack Project)
 
+> A full-stack directory platform connecting users with nearby service providers, built using the MERN stack.
+
+![Home Preview](business-directory/screenshots/home.png)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![React](https://img.shields.io/badge/Frontend-React-61DAFB?logo=react)
+![Node.js](https://img.shields.io/badge/Backend-Node.js-339933?logo=node.js)
+![Express](https://img.shields.io/badge/API-Express.js-black?logo=express)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb)
+![JWT Auth](https://img.shields.io/badge/Auth-JWT-orange?logo=jsonwebtokens)
+![Deployment](https://img.shields.io/badge/Deployment-Coming%20Soon-lightgrey)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+---
+
 ## 🔗 Live Demo  
-*Coming Soon* — Deployment link will be added once hosted.
+🚧 *Coming Soon* — Deployment link will be added once hosted.
 
 ---
 
